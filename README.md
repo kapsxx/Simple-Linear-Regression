@@ -4,7 +4,9 @@
 
 Theoretical Illustration  :  
 
-    Simple linear regression is a statistical method which is used for finding relationship between two continuous variables. It assumes     that there is approximately a linear relationship between "x" and "y". There are two variables, one is the dependent variable("y")       and the other is the independent variable("x"). 
+    Simple linear regression is a statistical method which is used for finding relationship between two continuous variables.
+    It assumes that there is approximately a linear relationship between "x" and "y".
+    There are two variables, one is the dependent variable("y") and the other is the independent variable("x"). 
 
 Dependent variable - The variable whose values depend on any other variable/variables is known as dependent variable.
 
@@ -15,7 +17,9 @@ Simple linear regression is used to find a relationship between the dependent an
 
 Mathematical Illustration  :  
 
-    Simple linear regression is used to predict a quantitative outcome "y" on the basis of one single predictor variable "x". The main       aim is to build a mathematical model that defines "y" as a function of the "x". The model thus created can be used to predict the       future values of "y" on the basis of new values of "x".
+    Simple linear regression is used to predict a quantitative outcome "y" on the basis of one single predictor variable "x".
+    The main aim is to build a mathematical model that defines "y" as a function of the "x".
+    The model thus created can be used to predict the future values of "y" on the basis of new values of "x".
 
 Mathematically, linear regression can be written as  :  y = b0 + b1*x + e, where:
 
@@ -63,14 +67,15 @@ Mathematically, Residual standard error can be written  as  :  RSE = √(RSS/(n-
 
 Visualization of predicted data via simple linear regression model  :  
 
-    Visualization of data means expressing the data in the form of graphs, charts, etc. I have performed data visualization using           "ggplot2" package, and the function used is "ggplot()".
+    Visualization of data means expressing the data in the form of graphs, charts, etc.
+    I have performed data visualization using "ggplot2" package, and the function used is "ggplot()".
 
 The concept behind ggplot2 divides plot into three different fundamental parts  :  Plot = Data + Aesthetics + Geometry.
 
 The principal components of every plot can be defined as follow:
 
     Data is a data frame
-    Aesthetics is used to indicate x and y variables. It can also be used to control the color, the size or the shape of points, the height of bars, etc…..
+    Aesthetics is used to indicate x and y variables. It can also be used to control the color, the size or the shape of points,etc.
     Geometry defines the type of graph(histogram, box plot, line plot, density plot, dot plot, etc.)
 
 syntax  :  
@@ -89,5 +94,6 @@ NOTE  :
     All the steps of the code have been explained in detail.
     Explanation is given in comments along with the code.
     All the pre-processing methods and the reasons why to choose them are also explained in the comments.
-    Read each and every line of the code along with the comments. It will help you understand the concept of simple linear regression very easily.
-    After going through the code and the description mentioned above, you will be able to perform simple linear regression very conveniently.
+    Read each and every line of the code along with the comments.
+    It will help you understand the concept of simple linear regression very easily.
+    After going through the code, you will be able to perform simple linear regression very conveniently.
