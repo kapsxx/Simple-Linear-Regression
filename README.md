@@ -97,3 +97,14 @@ NOTE  :
     Read each and every line of the code along with the comments.
     It will help you understand the concept of simple linear regression very easily.
     After going through the code, you will be able to perform simple linear regression very conveniently.
+
+
+Files attached  :  
+
+    code -> Simple linear regression code along with comments
+    graph -> Simple linear regression graph
+    Salary_Data -> Original dataset 
+    training_set -> Trained dataset
+    test_set -> Test dataset
+    n_test_set -> Dataset consisting of actual and predicted data values
+
